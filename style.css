@@ -1,0 +1,141 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    }
+
+nav {
+    background-color: #007bff;
+    padding: 15px;
+    margin-bottom:30px;
+    text-align-last: center;
+}
+
+nav a{
+    color:white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #555;
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: white;
+}
+
+th{
+    background-color: #007bff;
+    color:white;
+    padding: 12px;
+    text-align:left;
+}
+
+td{
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.category {
+    background: white;
+    padding 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.shop-item {
+    display:flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.shop-item img {
+    width:50px;
+    height:50px;
+    object-fit: contain;
+    margin-right: 15px;
+}
+
+.shop-item a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.movie-item {
+    background:white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.movie-item h3 a {
+    color:#007bff;
+    text-decoration: none;
+}
+
+.age {
+    color:#dc3545;
+    font-weight: bold;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #666;
+}
